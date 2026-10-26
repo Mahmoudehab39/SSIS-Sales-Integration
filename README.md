@@ -14,9 +14,9 @@ table, built automatically.
 Distributor1.txt (Flat File) ─► Derived Column (clean) ─► Derived Column (TotalAmount) ─┐
 Distributor2.xlsx (Excel)    ─► Derived Column (clean) ─► Derived Column (TotalAmount) ─┼─► Union All ─► Conditional Split ─┬─► dbo.FactSales
 Distributor3.xlsx (Excel)    ─► Derived Column (clean) ─► Derived Column (TotalAmount) ─┘                                   └─► dbo.RejectedSales
+```
 ![Data Flow](docs/dataflow.png)
 ![Validation](docs/validation_results.png)
-```
 
 ## Source schemas
 | Distributor | Format | Columns |
