@@ -1,0 +1,11 @@
+# Visual Studio / SSIS
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtproj.user
+*.ispac
+# OS
+Thumbs.db
+.DS_Store
